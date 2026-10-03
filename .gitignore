@@ -1,0 +1,40 @@
+# Environments
+.env
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.egg-info/
+src/*.egg-info/
+
+# Generated data and outputs
+data/*.csv
+output/*
+!output/.gitkeep
+docs/generated_incident_report.md
+
+# Archives / transfer artifacts
+*.zip
+
+# Logs and local files
+*.log
+.DS_Store
+Thumbs.db
+
+# Private / application material
+cv/
+cvs/
+resume/
+resumes/
+cover-letters/
+applications/
+job-tracker/
+private/
+secrets/

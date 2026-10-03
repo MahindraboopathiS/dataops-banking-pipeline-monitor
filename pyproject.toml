@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "banking-dataops-monitoring"
+version = "0.1.0"
+description = "Synthetic regulated-data monitoring lab with PostgreSQL, SQL controls, Python and Streamlit."
+requires-python = ">=3.12"
+dependencies = [
+    "psycopg[binary]",
+    "pandas",
+    "pydantic",
+    "pydantic-settings",
+    "streamlit",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "ruff",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
