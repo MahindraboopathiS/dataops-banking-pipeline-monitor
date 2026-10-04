@@ -1,4 +1,4 @@
-# banking-dataops-monitoring
+# dataops-banking-monitoring
 
 <div align="center">
 
