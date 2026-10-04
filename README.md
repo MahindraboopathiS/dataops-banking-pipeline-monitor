@@ -215,7 +215,7 @@ The extended portfolio validation workflow also generates public validation repo
 - **Automated Data Quality Suite:** SQL & Python validation rules checking for nulls, duplicates, and range boundaries.
 - **Reconciliation Engine:** Source-vs-target row and amount delta verification.
 - **Interactive Operational Dashboard:** Real-time metrics and quality tracking built with Streamlit.
-- **CI/CD Integration:** Automated test executions via GitHub Actions on every commit.
+- **CI/CD Integration:** Automated test executions via GitHub Actions on the every commit.
 
 ## Public-safety rules
 
