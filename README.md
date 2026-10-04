@@ -231,7 +231,7 @@ This project is not:
 - a bank-grade control framework;
 - a real fraud system;
 - an investment, credit, insurance or health decision engine;
-- a repository for job applications.
+
 
 ---
 
